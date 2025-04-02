@@ -26,4 +26,4 @@ stonecutter {
     }
 }
 
-rootProject.name = "Template"
+rootProject.name = "Uncramped Enchantment"

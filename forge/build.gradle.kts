@@ -63,8 +63,8 @@ loom {
 
     forge.convertAccessWideners = true
     forge.mixinConfigs(
-        "template-common.mixins.json",
-        "template-forge.mixins.json",
+        "uncramped-enchantment-common.mixins.json",
+        "uncramped-enchantment-forge.mixins.json",
     )
 
     runConfigs.all {

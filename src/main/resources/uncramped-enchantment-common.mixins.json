@@ -1,9 +1,9 @@
 {
   "required": true,
-  "package": "com.example.template.mixin",
+  "package": "org.topodic.uncramped_enchantment.mixin",
   "compatibilityLevel": "JAVA_17",
   "mixins": [
-    "ExampleMixin"
+    "EnchantmentTableMixin"
   ],
   "injectors": {
     "defaultRequire": 1

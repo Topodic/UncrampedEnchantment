@@ -1,6 +1,6 @@
 {
   "required": true,
-  "package": "com.example.template.fabric.mixin",
+  "package": "org.topodic.uncramped_enchantment.neoforge.mixin",
   "compatibilityLevel": "JAVA_17",
   "mixins": [
   ],

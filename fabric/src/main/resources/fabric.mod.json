@@ -3,23 +3,23 @@
   "id": "${id}",
   "version": "${version}",
   "name": "${name}",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "description": "No more cramped enchanting rooms!",
   "authors": [
-    "Me!"
+    "Topodic"
   ],
   "contact": {
   },
-  "license": "CC0-1.0",
+  "license": "GPL3",
   "icon": "assets/${id}/icon.png",
   "environment": "*",
   "entrypoints": {
     "main": [
-      "com.example.template.fabric.TemplateModFabric"
+      "org.topodic.uncramped_enchantment.fabric.UncrampedEnchantmentFabric"
     ]
   },
   "mixins": [
-    "template-common.mixins.json",
-    "template-fabric.mixins.json"
+    "uncramped-enchantment-common.mixins.json",
+    "uncramped-enchantment-fabric.mixins.json"
   ],
   "depends": {
     "fabricloader": ">=0.15",
